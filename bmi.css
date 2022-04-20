@@ -1,0 +1,97 @@
+#bmi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    font-weight: 400;
+    width: fit-content;
+    margin: 0 auto;
+    transform: translateY(-70px);
+          font-variant: small-caps;
+}
+
+#bmi > label{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.5em;
+          font-variant: small-caps;
+}
+
+#bmi > input{
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 1%;
+    font-size: 1.8em;
+    width: 50%;
+    margin-left: 5%;
+    outline: none;
+    font-variant: small-caps;
+}
+
+#bmi > input:hover{
+  cursor:pointer;
+}
+
+#bmi > select{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.7em;
+    font-variant: small-caps;
+    outline: none;
+    border: none;
+    /* transform: translateX(-150%); */
+}
+
+#bmi > select:hover{
+  cursor:pointer;
+}
+
+#bmi > button{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+    font-weight: 300;
+    color: white;
+    background-color: rgb(45, 173, 45);
+
+    border: 0px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0px 1px 3px 0.5px black ;
+    font-variant: small-caps;
+
+}
+
+#bmi > button:hover{
+    background-color: rgb(55, 194, 62);
+    box-shadow: none ;
+    cursor: pointer;
+}
+
+
+#bmi > h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    width: fit-content;
+    margin: 50px auto;
+    /* font-variant: small-caps; */
+
+}
+
+#bmi > h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    transform: translateY(70px);
+    /* font-variant: small-caps; */
+
+}

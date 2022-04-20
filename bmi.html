@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="bmi.js"></script>
+    <link rel="stylesheet" href="bmi.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script type="text/javascript" src="bmi.js"></script>
+  </head>
+  <body>
+    <section id="navbar">
+         <a href="index.html"><button id="heading">PFitson</button></a>
+
+
+
+    <div class="right-side">
+       <a href="index.html"><button type="button" name="button">About</button></a>
+       <a href="diet.html"><button type="button" name="button">My Diet</button></a>
+      <!-- <button type="button" name="button">Diet Plan</button> -->
+       <a href="bmi.html"><button type="button" name="button">BMI</button></a>
+       <a href="exercise.html"><button type="button" name="button">Workout</button></a>
+      <button type="button" name="button">Details</button>
+    </div>
+
+
+    <div id="bmi">
+      <div class="heading">B.M.I Calculator</div>
+
+      <label for="weight">Weight</label>
+      <input type="text" id="weight">
+      <select id="selectwt">
+        <option>Kgs</option>
+        <option>lbs</option>
+      </select><br><br>
+
+      <label for="height" style="margin-left:1.1%;">Height</label>
+      <input type="text" id="height">
+      <select  id="selectht">
+        <option>cms</option>
+        <option>ft</option>
+      </select><br><br>
+
+      <button type="button" name="button" onclick="Data()">Calculate</button>
+
+      <h3 style="display:none" id="report"></h3>
+      <!-- <h4 style="display:none" id="showButton">Check out Calories Consumed <button type="button" name="button">Diet</button> and Calories Burnt <button type="button" name="button">Exercise</button> </h4> -->
+    </div>
+
+  </body>
+</html>
